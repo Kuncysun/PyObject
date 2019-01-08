@@ -11,3 +11,5 @@ while True:
     if q3 == '不知道':
         break
 print('都答对了，你是虚竹。')
+
+#学习在vscode中集成git
