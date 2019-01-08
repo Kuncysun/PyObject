@@ -1,6 +1,7 @@
 '''for循环语法结构：
 for iterating_var in sequence:
    statements(s)'''
+   
 sunNum=0
 for a in range(1,101):#range(start,stop)函数  一般和for循环一起使用 表示 开始位置到结尾位置之间的值   range(1,101)表示1-100 左闭右开（左包含右不包含）
     # for in 
