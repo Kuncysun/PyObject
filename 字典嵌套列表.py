@@ -1,12 +1,16 @@
-v = {'妖猫传':['黄轩','染谷将太'],'无问西东':['章子怡','王力宏','祖峰'],'超时空同居':['雷佳音','佟丽娅'],}
-v_keylist=[]
-v_valuelist=[]
-for key,value in v.items( ):
-    v_keylist.append(key)
-    v_valuelist.append(value)
-for k in v_keylist:
-    print(k)  
-for v in v_valuelist:
-    print(v)      
-""" print(v_keylist)
-print(v_valuelist) """
+
+'''先给你3个提示哇：
+1.使用input()函数获取输入的演员名字，并赋值给一个变量。
+2.使用for...in...取出所有演员的名字。
+3.再使用if A in B作为一个条件判断数据A是否在列表B中，输出对应结果。'''
+
+v = {'妖猫传':['黄轩','染谷将太'],'无问西东':['章子怡','王力宏','祖峰'],'超时空同居':['雷佳音','佟丽娅']}
+a = input('请输入演员名称')
+for i in v:
+    if a in v[i]:
+        print(a+'出演了'+i)
+
+
+    
+    
+        
