@@ -37,3 +37,4 @@ time.sleep(1)
 print(image)
 a = random.choice(l)
 print('恭喜'+a+'中奖')
+#
